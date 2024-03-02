@@ -12,11 +12,11 @@ public interface ApiConfig extends Config {
     String setFullName();
 
     @Config.Key("password")
-    @Config.DefaultValue("valentine")
+    @Config.DefaultValue("pistol")
     String setPassword();
 
     @Config.Key("email")
-    @Config.DefaultValue("dickValentine@reqres.in")
+    @Config.DefaultValue("eve.holt@reqres.in")
     String setEmail();
 
     @Config.Key("id")
